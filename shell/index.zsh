@@ -3,11 +3,11 @@
 ########################################
 # switchaudio-osx - https://github.com/deweller/switchaudio-osx
 ########################################
-S_INP_RAW="MacBook Pro Microphone"
-S_OUT_RAW="MacBook Pro Speakers"
+S_INP_RAW="Built-in Microphone"
+S_OUT_RAW="Built-in Output"
 
-S_INP_SIMPLE="External Microphone"
-S_OUT_SIMPLE="External Headphones"
+S_INP_TV="Built-in Microphone"
+S_OUT_TV="HDMI"
 
 alias s='SwitchAudioSource'
 
@@ -21,6 +21,7 @@ function switch_audio_source () {
 }
 
 # shellcheck disable=SC2139
-alias s1="switch_audio_source \"$S_INP_RAW\" \"$S_OUT_RAW\""              # raw
+alias s1="switch_audio_source \"$S_INP_RAW\" \"$S_OUT_RAW\""  # raw
 # shellcheck disable=SC2139
-alias s2="switch_audio_source \"$S_INP_SIMPLE\" \"$S_OUT_SIMPLE\""        # simple
+alias s2="switch_audio_source \"$S_INP_TV\" \"$S_OUT_TV\""    # tv
+
