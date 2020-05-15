@@ -1,2 +1,5 @@
 # dotfiles-extensions-media
-My media center extensions to my https://github.com/rafaeleyng/dotfiles project
+
+[extensions](https://github.com/rafaeleyng/dotfiles#extensions) for my [dotfiles](https://github.com/rafaeleyng/dotfiles) related to my media center
+
+---
